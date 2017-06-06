@@ -22,6 +22,9 @@ import Btn from "./Button.vue";
 import bold from "./modules/bold.js";
 import italic from "./modules/italic.js";
 import underline from "./modules/underline.js";
+import fontSizeSmall from "./modules/fontSizeSmall.js";
+import fontSizeMedium from "./modules/fontSizeMedium.js";
+import fontSizeLarge from "./modules/fontSizeLarge.js";
 
 import headings from "./modules/headings.vue";
 import hyperlink from "./modules/hyperlink.vue";
@@ -37,6 +40,7 @@ import separator from "./modules/separator.js";
 
 const modules = [
     bold, italic, underline, separator,
+    fontSizeSmall, fontSizeMedium, fontSizeLarge,
     headings, hyperlink,
     list_ordered, list_unordered, separator,
     image, table, separator,
@@ -187,7 +191,7 @@ $svgSize = 16px
         fill #333
         cursor pointer
         text-align center
-        line-height 1
+        line-height 32px
 
         &:hover
             background alpha(black, 0.1)

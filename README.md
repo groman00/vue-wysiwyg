@@ -39,6 +39,9 @@ Available Modules:
 - list_unordered
 - removeFormat
 - table
+- fontSizeSmall
+- fontSizeMedium
+- fontSizeLarge
 
 Note on the image upload API endpoint:
 - Image is uploaded by `multipart/form-data`
