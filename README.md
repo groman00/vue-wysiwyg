@@ -46,3 +46,4 @@ Available Modules:
 Note on the image upload API endpoint:
 - Image is uploaded by `multipart/form-data`
 - Your endpoint must respond back with a string, the URL for the image - e.g. `http://myapp.com/images/12345.jpg`
+
